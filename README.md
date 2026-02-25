@@ -1,9 +1,9 @@
 # mcp_api_key
 
-##Run:
+## Run:
 uvicorn server:app --reload --port 8002
 
-##Test:
+## Test:
 curl -X POST http://localhost:8002/tools/get_patient_age \
   -H "Content-Type: application/json" \
   -H "x-api-key: ############" \
